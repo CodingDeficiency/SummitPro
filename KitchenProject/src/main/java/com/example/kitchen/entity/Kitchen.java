@@ -1,10 +1,7 @@
 package com.example.kitchen.entity;
-<<<<<<< HEAD
-=======
+
 import java.util.ArrayList;
 import java.util.Date;
-
->>>>>>> parent of 63b8fac... Delete KitchenProject directory
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,16 +12,7 @@ import javax.persistence.Table;
 public class Kitchen {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)	
-<<<<<<< HEAD
-	int id;
-	String name;
-	String email;
-	String password;
-	String working_days;
-	String image;
 
-}
-=======
 	private int id;
 	private ArrayList<MenuItem> menu;
 	private ArrayList<Order> orders;
@@ -32,7 +20,7 @@ public class Kitchen {
 	private String email;
 	private String password;
 	private Date working_days;
-	
+
 	public Kitchen() {
 		this.menu = new ArrayList<MenuItem>();
 		this.orders = new ArrayList<Order>();
@@ -87,4 +75,3 @@ public class Kitchen {
 	private String image;
 
 }
->>>>>>> parent of 63b8fac... Delete KitchenProject directory

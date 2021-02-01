@@ -1,10 +1,5 @@
 package com.example.kitchen.entity;
 
-<<<<<<< HEAD
-public class MenuItem {
-
-}
-=======
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -63,4 +58,3 @@ public class MenuItem {
 	}
 
 }
->>>>>>> parent of 63b8fac... Delete KitchenProject directory
