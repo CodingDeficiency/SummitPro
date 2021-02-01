@@ -1,6 +1,7 @@
 package com.example.kitchen.entity;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 public class Order {
 
 }
@@ -15,13 +16,12 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Order123")
+=======
+>>>>>>> parent of c0a506c... beans
 public class Order {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)	
-	private int id;
-	private Date timeOrd;
-	private float amountPaid;
-	
 
 }
+<<<<<<< HEAD
 >>>>>>> parent of 63b8fac... Delete KitchenProject directory
+=======
+>>>>>>> parent of c0a506c... beans

@@ -1,10 +1,13 @@
 package com.example.kitchen.entity;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import java.util.ArrayList;
 import java.util.Date;
 
 >>>>>>> parent of 63b8fac... Delete KitchenProject directory
+=======
+>>>>>>> parent of c0a506c... beans
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -16,12 +19,16 @@ public class Kitchen {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)	
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c0a506c... beans
 	int id;
 	String name;
 	String email;
 	String password;
 	String working_days;
 	String image;
+<<<<<<< HEAD
 
 }
 =======
@@ -88,3 +95,7 @@ public class Kitchen {
 
 }
 >>>>>>> parent of 63b8fac... Delete KitchenProject directory
+=======
+
+}
+>>>>>>> parent of c0a506c... beans
